@@ -52,7 +52,19 @@ Open and execute:
 ```
 ml-ops-group-37-project.ipynb
 ```
+## CI/CD Automation
 
+GitHub Actions workflows were implemented for:
+
+- Code quality checks using Flake8 (ci.yml)
+- Docker inference workflow validation (inference.yml)
+
+## Docker usage
+
+```bash
+- docker pull shrijaya2146/mlops-a3-inference:latest
+- docker run --rm shrijaya2146/mlops-a3-inference:latest
+```
 ---
 
 ## Public Project Links
